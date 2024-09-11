@@ -22,7 +22,7 @@
     captions: false,
     ticker: false,
     tickerHover: false,
-    adaptiveHeight: false,
+    adaptiveHeight: true,
     adaptiveHeightSpeed: 500,
     video: false,
     useCSS: true,
@@ -79,7 +79,7 @@
     minSlides: 1,
     maxSlides: 1,
     moveSlides: 0,
-    slideWidth: 0,
+    slideWidth: 1400,
     shrinkItems: false,
 
     // CALLBACKS
