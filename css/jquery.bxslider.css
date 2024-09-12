@@ -9,6 +9,7 @@
   *zoom: 1;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
+  margin: 0 auto 150px;
 }
 .bx-wrapper img {
   max-width: 100%;
@@ -61,18 +62,20 @@ ul.bxslider {
   font-weight: bold;
   color: #666;
   padding-top: 20px;
+  position: absolute;
+  bottom: -70px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: #666;
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin: 0 5px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,

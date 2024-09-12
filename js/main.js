@@ -53,6 +53,11 @@ $(function(){
         slidesToScroll: 1,
     })
 
+    $(".project").bxSlider({
+
+    })
+
+
 
 })//jQuery
 
@@ -60,7 +65,7 @@ $(window).scroll(function(){
     var top = $(this).scrollTop();
     console.log(top);
 
-    if( top >= 1100 ){
+    if( top >= 1200 ){
         $(".top_btn").slideDown();
     }else{
         $(".top_btn").slideUp();
@@ -71,3 +76,6 @@ $(window).scroll(function(){
     })
 
 })//scroll
+
+
+
