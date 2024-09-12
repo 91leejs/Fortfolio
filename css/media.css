@@ -164,7 +164,7 @@
     .project > ul{
         max-width: 700;
         width: 90%;
-        margin: 100px auto;
+        /* margin: 100px auto; */
         box-shadow: 0 0 10px grey;
         transition: all 0.3s ease-in-out;
     }
@@ -280,12 +280,24 @@
 }
 
 @media screen and (max-width:450px) {
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 70px;
+    }
+
+
+    .logo{
+        width: 100%;
+    }
+
     .logo h1 {
         font-size: 0.7rem;
+        text-align: center;
     }
 
     .menu ul li {
-        margin-right: 5px;
+        margin: 0 5px;
     }
 
     .menu ul li a {
@@ -295,7 +307,7 @@
     }
 
     .aboutMe{
-        margin-top: 100px;
+        margin-top: 70px;
         width: 100%;
         height: 500px;
         background-image: url('../img/coding-1853305_1920.jpg');
@@ -373,7 +385,7 @@
         max-width: 450;
         width: 90%;
         height: 700px;
-        margin: 100px auto;
+        /* margin: 100px auto; */
         box-shadow: 0 0 10px grey;
         transition: all 0.3s ease-in-out;
     }
