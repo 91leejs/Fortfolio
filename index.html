@@ -7,345 +7,440 @@
     <title>Lee J.S Portfolio</title>
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/jquery-ui.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/port.js"></script>
     <link rel="stylesheet" href="css/total.css">
 </head>
 <body>
     <div class="wrap">
-        <div class="header">
-            <div class="logo"><h1>Lee J.S Portfolio</h1></div>
+        <div class="intro section">
+            <h1>PORTFOLIO</h1>
+            <p>LEE JIN SU</p>
+        </div><!-- intro -->
 
-            <div class="menu">
+        <div class="profile section">
+            <div class="profile_inner">
+                <div class="p_left">
+                    <p>
+                        항상 <b>노력</b>하는,<br><b>웹퍼블리셔</b> 이진수입니다.
+                    </p>
+    
+                    <div class="photo"></div>
+    
+                    <p>
+                        노력은 배신하지 않는다는 믿음을 가진 저는,<br>
+                        끊임없는 도전과 자기 개발을 통해<br>
+                        목표를 달성해 나가고 있습니다.<br>
+                        항상 최선을 다하며, 성장하는 모습을<br>
+                        보여드리겠습니다.
+                    </p>
+                </div><!-- p_left -->
+    
+                <div class="p_right">
+                    <div class="in_left">
+                        <div class="il_top">
+                            <p><b>이진수</b></p>
+                            <p>
+                                <b>Birth.</b> &nbsp;1991. 01. 16<br>
+                                <b>Phone.</b> &nbsp;+82 10.9948.9116<br>
+                                <b>Mail.</b> &nbsp;91leejs@gmail.com<br>
+                                <b>Github.</b> &nbsp;<a href="https://github.com/91leejs" target="_blank">github.com/91leejs</a>
+                            </p>
+                        </div><!-- il_top -->
+
+                        <div class="il_bot">
+                            <p><b>Characters</b></p>
+                            <p>
+                                # 꼼꼼한&nbsp; # 차분한&nbsp; # 현실적<br>
+                                # ISFP&nbsp; # 축구&nbsp; # 음악&nbsp;
+                            </p>
+                        </div><!-- il_bot -->
+                    </div><!-- in_left -->
+
+                    <div class="in_right">
+                        <div class="ir_top">
+                            <p><b>Education</b></p>
+                            <p>
+                                <b>2024. 03~</b>&nbsp; 고려사이버대학교 컴퓨터공학과 재학중<br>
+                                <b>2009. 06</b>&nbsp; 상해 교통대부속고등학교 졸업
+                            </p>
+                        </div><!-- ir_top -->
+
+                        <div class="ir_bot">
+                            <p><b>Skills</b></p>
+                            <ul>
+                                <li><!-- 90% --></li>
+                                <li><!-- 90% --></li>
+                                <li><!-- 70% --></li>
+                                <li><!-- 80% --></li>
+                                <li><!-- 70% --></li>
+                                <li><!-- 60% --></li>
+                                <li><!-- 80% --></li>
+                                <li><!-- 80% --></li>
+                                <li><!-- 90% --></li>
+                                <li><!-- 80% --></li>
+                            </ul>
+                        </div><!-- ir_bot -->
+                    </div><!-- in_right -->
+                </div><!-- p_right -->
+            </div><!-- profile_inner -->
+        </div><!-- profile -->
+
+        <div class="content section">
+            <div class="cont_inner">
+                <h1>CONTENT</h1>
+
+                <div class="cont">
+                    <div class="cont_left">
+                        <div class="cl_top">
+                            <p><b>HOMEPAGE</b></p>
+                            <p>
+                                <b>
+                                    PROJECT 01<br>
+                                    PROJECT 02<br>
+                                    PROJECT 03<br>
+                                    <!-- PROJECT 04<br>
+                                    PROJECT 05<br>
+                                    PROJECT 06 -->
+                                </b>
+                            </p>
+                        </div><!-- cl_top -->
+
+                        <div class="cl_bot">
+                            <p><b>REDESIGN</b></p>
+                            <p>
+                                <b>
+                                    HOMEPAGE REDESIGN<br>
+                                    HWATU REDESIGN
+                                </b>
+                            </p>
+                        </div><!-- cl_bot -->
+                    </div><!-- cont_left -->
+    
+                    <div class="cont_right">
+                        <div class="cr_top">
+                            <p><b>UI / UX</b></p>
+                            <p>
+                                <b>
+                                    FIGMA 01<br>
+                                    FIGMA 02
+                                </b>
+                            </p>
+                        </div><!-- cr_top -->
+
+                        <div class="cr_bot">
+                            <p><b>PACKAGE DESIGN</b></p>
+                            <p><b>SNACK PACKAGE DESIGN</b></p>
+                        </div><!-- cr_bot -->
+                    </div><!-- cont_right -->
+                </div><!-- cont -->
+
+            </div><!-- cont_inner -->
+        </div><!-- content -->
+
+        <div class="project2 section pj">
+            <div class="pj_inner pi2">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 01</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>창업 홈페이지 (반응형)</b></p>
+                <p><b>뉴키의 문구룸</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 08 ~ 2024. 08</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
+
                 <ul>
-                    <li><a href="#aboutMe"> &lt;About Me&gt;</a></li>
-                    <li><a href="#skills"> &lt;Skills&gt;</a></li>
-                    <li><a href="#project"> &lt;Project&gt;</a></li>
-                    <li><a href="#contact"> &lt;Contact&gt;</a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-            </div>
-        </div><!-- header -->
 
-        <div class="aboutMe">
-            <div class="am_bg">
+                <a href="https://newkimoonguroom.netlify.app" target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
                 <p>
-                    주니어 프론트 엔드 개발자, 이진수의 포트폴리오 입니다.
+                    뉴키의 문구룸은 스티커, 포장용품, 메모지 등 다양한 문구류를 판매하는 창업 사이트로, 창의적이고 실용적인 문구 아이템을 합리적인 가격에 제공합니다. 감각적인 디자인과 실용성을 겸비한 제품으로 고객의 일상을 더욱 특별하게 만들어드립니다.
                 </p>
-            </div><!-- am_bg -->
-        </div><!-- aboutMe -->
+            </div><!-- pj_inner -->
+        </div><!-- project2 -->
 
-        <div class="am_box" id="aboutMe">
-            <h2>&lt;/About Me&gt;</h2>
-            <div>
-                <div class="photo">
+        
+        <div class="project1 section pj">
+            <div class="pj_inner pi1">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 02</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>기업 홈페이지 COPY (반응형)</b></p>
+                <p><b>KIA 자동차</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 08 ~ 2024. 08</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
 
-                </div><!-- photo -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
 
-                <div class="profile">
-                    <ul>
-                        <li><span></span>이진수</li>
-                        <li><span></span>1991. 01. 16</li>
-                        <li><span></span>경기도 구리시</li>
-                        <li><span></span>010-9948-9116</li>
-                        <li><span></span>91leejs@gmail.com</li>
-                        <li><span></span>고려사이버대학교 컴퓨터공학과<br>(재학중)</li>
-                    </ul>
-                </div><!-- profile -->
+                <a href="https://kia-leejs.netlify.app" target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
+                <p>
+                    기아자동차 홈페이지는 최신 차량 정보, 견적, 서비스 예약 등 다양한 기능을 제공하며, 직관적인 사용자 경험을 통해 고객이 손쉽게 필요한 정보를 얻을 수 있습니다. 혁신적인 디자인과 기술을 반영한 브랜드 아이덴티티를 강조하고 있습니다.
+                </p>
+            </div><!-- pj_inner -->
+        </div><!-- project1 -->
+
+        <div class="project11 section pj">
+            <div class="pj_inner pi11">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 03</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>기업 홈페이지 (반응형)</b></p>
+                <p><b>ARCHITECTURE</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 08 ~ 2024. 08</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <a href="https://architecture91.netlify.app" target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
+                <p>
+                    Architecture 는 건물 시공업체를 위한 반응형 웹사이트로, 시공 프로젝트 포트폴리오와 서비스 정보를 직관적으로 제공하여 고객과의 소통을 돕습니다. 모바일, 태블릿, 데스크탑 등 다양한 기기에서 최적화된 사용자 경험을 제공합니다.
+                </p>
+            </div><!-- pj_inner -->
+        </div><!-- project11 -->
+
+<!-- 
+        <div class="project3 section pj">
+            <div class="pj_inner pi3">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 04</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>기업 홈페이지 COPY</b></p>
+                <p><b>캐논</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 07 ~ 2024. 07</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div>
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <a href="https://leejs-canon.netlify.app"target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
+                <p>
+                    캐논 홈페이지는 카메라, 프린터, 렌즈 등 최신 제품 정보를 제공하며, 구매 가이드와 지원 서비스를 통해 사용자에게 최적의 경험을 제공합니다. 고품질 이미징 기술을 강조하는 직관적인 디자인으로 브랜드의 전문성을 잘 표현하고 있습니다.
+                </p>
             </div>
-        </div><!-- am_box -->
+        </div>
 
-        <div class="skills" id="skills">
-            <h2>&lt;/Skills&gt;</h2>
-
-            <div class="skill_inner">
-                <ul>
-                    <li>
-                        <div class="icon1"></div>
-                        <p>Html</p>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <div class="icon2"></div>
-                        <p>CSS</p>
-                    </li>
-                </ul>
+        <div class="project4 section pj">
+            <div class="pj_inner pi4">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 05</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>기업 홈페이지 COPY</b></p>
+                <p><b>맥도날드</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 06 ~ 2024. 06</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div>
 
                 <ul>
-                    <li>
-                        <div class="icon3"></div>
-                        <p>Javascript</p>
-                    </li>
+                    <li></li>
+                    <li></li>
                 </ul>
+
+                <a href="https://leejs-mcd.netlify.app"target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
+                <p>
+                    맥도날드 홈페이지는 메뉴 정보, 매장 찾기, 배달 및 할인 혜택 등 다양한 서비스를 제공하며, 사용자 친화적인 인터페이스로 고객이 손쉽게 원하는 정보를 찾을 수 있도록 설계되었습니다. 브랜드의 글로벌 이미지를 반영한 디자인과 최신 프로모션이 돋보입니다. 
+                </p>
+            </div>
+        </div>
+
+        <div class="project5 section pj">
+            <div class="pj_inner pi5">
+                <h2>HOMEPAGE</h2>
+                <p><b>PROJECT 06</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>기업 홈페이지 COPY</b></p>
+                <p><b>하나투어 ZEUS</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 06 ~ 2024. 06</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div>
 
                 <ul>
-                    <li>
-                        <div class="icon4"></div>
-                        <p>jQuery</p>
-                    </li>
+                    <li></li>
+                    <li></li>
                 </ul>
+
+                <a href="https://leejs-hanatour.netlify.app"target="_blank">사이트로 이동</a>
+                <p>OVERVIEW</p>
+                <p>
+                    하나투어 제우스는 전 세계 여행 상품을 간편하게 비교하고 예약할 수 있는 혁신적인 플랫폼입니다. 맞춤형 여행 추천과 최신 여행 정보를 통해 최고의 여행 경험을 제공합니다.
+            </div>
+        </div> -->
+        
+
+        <div class="project6 section pj">
+            <div class="pj_inner pi6">
+                <h2>REDESIGN</h2>
+                <p><b>HOMEPAGE REDESIGN</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>BRAND 홈페이지 REDESIGN</b></p>
+                <p><b>MLB</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 05 ~ 2024. 05</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
 
                 <ul>
-                    <li>
-                        <div class="icon5"></div>
-                        <p>Bootstrap</p>
-                    </li>
+                    <li></li>
                 </ul>
+
+                <a href="#" class="mlb_preview">자세히 보기</a>
+                <p>OVERVIEW</p>
+                <p>
+                    MLB 사이트는 인기 메이저리그 팀의 유니폼, 모자, 액세서리 등 다양한 패션 아이템을 제공하며, 트렌디한 디자인으로 스포츠 팬과 패션 애호가 모두를 만족시킵니다. 정품 인증 제품과 최신 컬렉션을 한눈에 볼 수 있는 직관적인 쇼핑 환경을 자랑합니다.
+            </div><!-- pj_inner -->
+        </div><!-- project6 -->
+
+        <div class="project7 section pj">
+            <div class="pj_inner pi7">
+                <h2>REDESIGN</h2>
+                <p><b>HWATU REDESIGN</b></p>
+                <p><b>팀 프로젝트</b></p>
+                <p><b>화투 REDESIGN</b></p>
+                <p><b>화투 7月, 8月, 9月</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 05 ~ 2024. 05</p>
+                    <p>기여도</p>
+                    <p>30%</p>
+                </div><!-- pj_box -->
 
                 <ul>
-                    <li>
-                        <div class="icon6"></div>
-                        <p>React</p>
-                    </li>
+                    <li></li>
+                    <li></li>
                 </ul>
+
+                <a href="#" class="hwatu_preview">자세히 보기</a>
+                <p>OVERVIEW</p>
+                <p>
+                    전통 자개를 활용한 화투 리디자인은 한국의 전통미와 현대적인 감각을 조화시킨 작품으로, 자개의 고급스러운 광택과 세밀한 문양이 화투에 생명력을 더했습니다. 고유의 전통을 현대적으로 재해석하여, 예술적 가치와 실용성을 동시에 갖춘 디자인을 완성했습니다.
+            </div><!-- pj_inner -->
+        </div><!-- project7 -->
+
+        
+        <div class="project9 section pj">
+            <div class="pj_inner pi9">
+                <h2>UI / UX</h2>
+                <p><b>UI / UX DESIGN</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>PROTOTYPE</b></p>
+                <p><b>SMART HOME</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 06 ~ 2024. 06</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
 
                 <ul>
-                    <li>
-                        <div class="icon7"></div>
-                        <p>Github</p>
-                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
+
+                <a href="#" class="figma1_preview">자세히 보기</a>
+                <p>OVERVIEW</p>
+                <p>
+                    스마트홈은 IoT 기술을 통해 집 안의 다양한 기기들을 한 곳에서 제어할 수 있는 앱으로, 조명, 온도, 보안 시스템 등을 스마트폰으로 간편하게 관리할 수 있습니다. 사용자 맞춤 설정과 자동화 기능을 제공하여 보다 편리하고 효율적인 생활 환경을 제공합니다.
+            </div><!-- pj_inner -->
+        </div><!-- project9 -->
+
+
+        <div class="project8 section pj">
+            <div class="pj_inner pi8">
+                <h2>UI / UX</h2>
+                <p><b>UI / UX DESIGN</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>PROTOTYPE</b></p>
+                <p><b>DELICIOUS TIME</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 06 ~ 2024. 06</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
 
                 <ul>
-                    <li>
-                        <div class="icon8"></div>
-                        <p>Figma</p>
-                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
+
+                <a href="#" class="figma2_preview">자세히 보기</a>
+                <p>OVERVIEW</p>
+                <p>
+                    딜리셔스는 다양한 요리 레시피를 손쉽게 공유하고 찾아볼 수 있는 레시피 공유 어플로, 사용자들이 자신만의 특별한 요리 비법을 나누고 다른 사람들의 레시피를 참고해 요리 실력을 키울 수 있습니다. 직관적인 인터페이스와 커뮤니티 기능을 통해 요리 초보부터 전문가까지 모두에게 유용한 플랫폼입니다.
+            </div><!-- pj_inner -->
+        </div><!-- project8 -->
+
+        <div class="project10 section pj">
+            <div class="pj_inner pi10">
+                <h2>PACKAGE DESIGN</h2>
+                <p><b>SNACK PACKAGE DESIGN</b></p>
+                <p><b>개인 프로젝트</b></p>
+                <p><b>과자 패키지 디자인</b></p>
+                <p><b>오리온 배배</b></p>
+                <div class="pj_box">
+                    <p>작업기간</p>
+                    <p>2024. 04 ~ 2024. 04</p>
+                    <p>기여도</p>
+                    <p>100%</p>
+                </div><!-- pj_box -->
 
                 <ul>
-                    <li>
-                        <div class="icon9"></div>
-                        <p>Photoshop</p>
-                    </li>
+                    <li></li>
                 </ul>
 
-                <ul>
-                    <li>
-                        <div class="icon10"></div>
-                        <p>Illustrator</p>
-                    </li>
-                </ul>
-            </div><!-- skill_inner -->
-        </div><!-- skills -->
-        <!-- project --------------------------------------------------------------------->
-        <div class="project" id="project">
-            <h2>&lt;/Project&gt;</h2>
-            <ul>
-                <li>
-                    <div class="project_img p_img1"><a href="https://kia-leejs.netlify.app/" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>기아자동차 홈페이지 COPY<br>(반응형)</p>
-                        <p>기아자동차 홈페이지를 HTML, CSS, Javascript 를<br>사용해 COPY 해보았습니다.</p>
-                        <a href="https://kia-leejs.netlify.app/" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
+                <a href="#" class="bebe_preview">자세히 보기</a>
+                <p>OVERVIEW</p>
+                <p>
+                    오리온 배배 과자 패키지 디자인은 귀여운 캐릭터와 밝은 색상을 활용해 제품의 친근함과 재미를 강조했습니다. 과자의 바삭함과 달콤함을 시각적으로 표현하여 소비자의 호기심을 끌고, 감각적인 디자인으로 브랜드의 개성을 부각시켰습니다.
+            </div><!-- pj_inner -->
+        </div><!-- project10 -->
 
-            <ul>
-                <li>
-                    <div class="project_img p_img2"><a href="https://newkimoonguroom.netlify.app" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>창업사이트 프로젝트<br>(반응형)</p>
-                        <p>창업사이트 프로젝트 사이트를 HTML, CSS, Javascript,<br>포토샵, 일러스트를 사용해 만들어보았습니다.</p>
-                        <a href="https://newkimoonguroom.netlify.app" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img3"><a href="https://91leejs-okcham.netlify.app" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>OK참병원 홈페이지 COPY</p>
-                        <p>OK참병원 홈페이지를 HTML, CSS, 포토샵을<br>사용해 COPY 해보았습니다.</p>
-                        <a href="https://91leejs-okcham.netlify.app" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img4"><a href="https://leejs-mcd.netlify.app" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>맥도날드 홈페이지 COPY</p>
-                        <p>맥도날드 홈페이지를 HTML, CSS를 <br> 사용해 COPY 해보았습니다.</p>
-                        <a href="https://leejs-mcd.netlify.app" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img5"><a href="https://leejs-canon.netlify.app" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>캐논 홈페이지 COPY</p>
-                        <p>캐논 홈페이지를 HTML, CSS, Javascript를<br>사용해 COPY 해보았습니다.</p>
-                        <a href="https://leejs-canon.netlify.app" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img6"><a href="https://leejs-hanatour.netlify.app/" target="_blank"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>하나투어 제우스 홈페이지 COPY</p>
-                        <p>하나투어 제우스 홈페이지를 HTML, CSS를<br>사용해 COPY 해보았습니다.</p>
-                        <a href="https://leejs-hanatour.netlify.app/" target="_blank">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img7"><a href="#"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>MLB 웹사이트 리디자인</p>
-                        <p>MLB 홈페이지를 포토샵을 사용해<br>리디자인 해보았습니다.</p>
-                        <a href="#" class="mlb_g">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img8"><a href="#"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                        </ul>
-                        <h2>개인 프로젝트</h2>
-                        <p>스마트홈 앱 디자인</p>
-                        <p>스마트홈 앱 을 피그마를 사용해<br>디자인 해보았습니다.</p>
-                        <a href="#" class="figma_g">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <div class="project_img p_img9"><a href="#"></a></div>
-                    <div class="project_con">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <h2>팀 프로젝트</h2>
-                        <p>화투 리디자인</p>
-                        <p>화투에 전통공예품 을 접목해서 포토샵 일러스트를<br>사용해 7월, 8월, 9월 리디자인을 해보았습니다.</p>
-                        <a href="#" class="hwatu_g">자세히보기</a>
-                    </div>
-                </li>
-            </ul>
-        </div><!-- project -->
-
-        <div class="contact" id="contact">
-            <h2>&lt;/Contact&gt;</h2>
-            <ul>
-                <li>
-                    <span></span>E-mail : 91leejs@gmail.com
-                </li>
-
-                <li>
-                    <a href="https://github.com/91leejs" target="_blank"><span></span>Github : https://github.com/91leejs</a>
-                </li>
-            </ul>
-            <p>© 2024. Lee Jin Su. All rights reserved.</p>
-        </div><!-- contact -->
-
-        <div class="top_btn"></div>
-
-        <div class="mlb_gallery">
-            <div class="mg_inner">
-                <div class="close"></div>
-                <div class="img">
-                    <div><img src="img/MLB피씨.jpg" alt="mlb1"></div>
-                    <div><img src="img/MLB모바일.jpg" alt="mlb2"></div>
-                    <div><img src="img/MLB웹리디자인1.jpg" alt="mlb3"></div>
-                    <div><img src="img/MLB웹리디자인2.jpg" alt="mlb4"></div>
-                    <div><img src="img/MLB웹리디자인3.jpg" alt="mlb5"></div>
-                    <div><img src="img/MLB웹리디자인4.jpg" alt="mlb6"></div>
-                    <div><img src="img/MLB웹리디자인5.jpg" alt="mlb7"></div>
-                </div><!-- img -->
-            </div><!-- mg_inner -->
-        </div><!-- mlb_gallery -->
-
-        <div class="figma_gallery">
-            <div class="fm_inner">
-                <div class="close"></div>
-                <div class="img">
-                    <div><img src="img/피그마1.jpg" alt="figma1"></div>
-                    <div><img src="img/피그마2.jpg" alt="figma2"></div>
-                    <div><img src="img/피그마3.jpg" alt="figma3"></div>
-                    <div><img src="img/피그마4.jpg" alt="figma4"></div>
-                    <div><img src="img/피그마5.jpg" alt="figma5"></div>
-                    <div><img src="img/피그마6.jpg" alt="figma6"></div>
-                    <div><img src="img/피그마7.jpg" alt="figma7"></div>
-                    <div><img src="img/피그마8.jpg" alt="figma8"></div>
-                    <div><img src="img/피그마9.jpg" alt="figma9"></div>
-                </div><!-- img -->
-            </div><!-- mg_inner -->
-        </div><!-- mlb_gallery -->
-
-        <div class="hwatu_gallery">
-            <div class="ht_inner">
-                <div class="close"></div>
-                <div class="img">
-                    <div><img src="img/화투리디자인1.jpg" alt="hwatu1"></div>
-                    <div><img src="img/화투리디자인2.jpg" alt="hwatu2"></div>
-                    <div><img src="img/화투리디자인3.jpg" alt="hwatu3"></div>
-                    <div><img src="img/화투리디자인4.jpg" alt="hwatu4"></div>
-                </div><!-- img -->
-            </div><!-- mg_inner -->
-        </div><!-- mlb_gallery -->
     </div><!-- wrap -->
+
 </body>
 </html>
