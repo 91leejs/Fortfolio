@@ -25,5 +25,18 @@ $(function(){
             "UI / UX FIGMA02",
             "SNACK PACKAGE DESIGN",
         ],
+        slidesNavigation: false,
+        slidesNavPosition: 'top',
+        autoScrolling: true,
+        scrollHorizontally: true, 
+        controlArrows: false,
     })
+
+
+    $(document).on('click', '.fp-next-link', function(e) {
+        e.preventDefault(); // 기본 링크 동작 방지
+        $.fn.fullpage.moveSlideRight(); // 오른쪽 슬라이드로 이동
+    });
+
+
 })//jQuery
