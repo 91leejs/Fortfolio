@@ -1,0 +1,513 @@
+@media screen and (max-width:700px) {
+    .header {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 0 15px;
+        z-index: 1000;
+        color: white;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+    }
+
+    .menu ul li {
+        margin-right: 10px;
+    }
+    
+    .menu ul li a {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .am_bg p{
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid white; /* 커서 */
+        animation: typing 2.5s steps(30, end),
+        blink-caret .95s step-end infinite;
+    }
+
+    .am_box{
+        max-width: 700px;
+        width: 90%;
+        height: 700px;
+        margin: 150px auto;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 5px grey;
+    }
+
+    .am_box > h2{
+        text-align: center;
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+    
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        70% { border-color: white; }
+    }
+
+    .photo{
+        max-width: 410px; 
+        width: 100%;
+        height: 350px;
+        background-color: gray;
+        border-radius: 50%;
+        background-image: url('../img/profile.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .profile ul li{
+        display: flex;
+        align-items: start;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .profile ul li span{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-position: left;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        margin-right: 15px;
+    }
+
+    .skills{
+        width: 100%;
+        height: 700px;
+        background-color: white;
+    }
+
+    .skills > h2{
+        text-align: center;
+        font-size: 25px;
+        padding: 25px 0 25px;
+    }
+
+    .skill_inner{
+        max-width: 1400px;
+        width: 100%;
+        height: 500px;
+        margin: 100px auto 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill_inner ul li{
+        width: 90%;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10;
+        background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+        perspective: 1000px;
+    }
+
+    .skill_inner ul li div{
+        width: 80px;
+        height: 80px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .skill_inner ul li p{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0 0 0;
+    }
+
+    .project{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .project > h2{
+        font-size: 25px;
+        text-align: center;
+        padding: 50px 0 100px;
+    }
+
+    .project > ul{
+        max-width: 700;
+        width: 90%;
+        margin: 100px auto;
+        box-shadow: 0 0 10px grey;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project_con{
+        width: 50%;
+        height: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .project_con h2{
+        font-size: 20px;
+        padding: 50px 0 30px;
+    }
+
+    .project_con p{
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .contact > h2{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .contact ul li{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 700px;
+    }
+
+    .contact p{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        padding: 60px 0 0;
+    }
+
+    .top_btn{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        background-image: url(../img/icons8-TOP-50.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+        border: 5px solid black;
+        border-radius: 15px;
+    }
+
+    .contact ul li span{
+        display: block;
+        width: 35px;
+        height: 35px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mg_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 480px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+
+    .fm_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 480px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+
+    .ht_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 480px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo h1 {
+        font-size: 0.7rem;
+    }
+
+    .menu ul li {
+        margin-right: 5px;
+    }
+
+    .menu ul li a {
+        display: block;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .aboutMe{
+        margin-top: 100px;
+        width: 100%;
+        height: 500px;
+        background-image: url('../img/coding-1853305_1920.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .am_bg p{
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid white; /* 커서 */
+        animation: typing 2.5s steps(30, end),
+        blink-caret .95s step-end infinite;
+    }
+
+    .am_box{
+        max-width: 450px;
+        width: 90%;
+        height: 650px;
+        margin: 150px auto;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 5px grey;
+    }
+
+    .photo{
+        max-width: 410px; 
+        width: 100%;
+        height: 300px;
+        background-color: gray;
+        border-radius: 50%;
+        background-image: url('../img/profile.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .skills > h2{
+        text-align: center;
+        font-size: 25px;
+        padding: 15px 0 15px;
+    }
+
+    .skill_inner ul li{
+        width: 90%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10;
+        background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+        perspective: 1000px;
+    }
+
+    .skill_inner ul li p{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px 0 0 0;
+    }
+
+    .project > ul{
+        max-width: 450;
+        width: 90%;
+        height: 700px;
+        margin: 100px auto;
+        box-shadow: 0 0 10px grey;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project > ul > li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project_img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .project_con{
+        width: 100%;
+        height: 50%;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .project_con a{
+        display: block;
+        margin: 50px auto 0;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+
+    .project_con ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project_con ul li{
+        width: 40px;
+        height: 40px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }
+
+    .mg_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+
+    .fm_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+
+    .ht_inner{
+        max-width: 1000px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+
+    .close{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        background-image: url('../img/닫기.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        transition: all 0.7s;
+        z-index: 1000;
+    }
+
+    .img .slick-dots li button{
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        text-indent: -9999px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        transition: all 0.5s;
+        border: 1px solid gray;
+    }
+
+    .img .slick-dots li{
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    .top_btn{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        background-image: url(../img/icons8-TOP-50.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+        border: 5px solid black;
+        border-radius: 15px;
+    }
+}
