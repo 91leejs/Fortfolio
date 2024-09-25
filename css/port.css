@@ -107,6 +107,22 @@ img {
 .p_left{
     width: 371px;
     height: 100%;
+    opacity: 0;
+}
+
+.l_ani{
+    animation: l_move 1.5s ease-in-out forwards;
+}
+
+@keyframes l_move{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
 
 .p_left p:nth-child(1){
@@ -133,6 +149,22 @@ img {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    opacity: 0;
+}
+
+.r_ani{
+    animation: r_move 1.5s ease-in-out forwards;
+}
+
+@keyframes r_move{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
 
 .in_left{
@@ -157,6 +189,10 @@ img {
     font-size: 20px;
     line-height: 2;
     color: #777;
+}
+
+.il_top a{
+    text-decoration: underline;
 }
 
 .il_bot{
@@ -264,6 +300,22 @@ img {
     width: 1433px;
     height: 518px;
     display: flex;
+    opacity: 0;
+}
+
+.cont_move{
+    animation: cont_ani 1.5s ease-in-out forwards;
+}
+
+@keyframes cont_ani{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
 }
 
 .cont_inner h1{
@@ -821,3 +873,27 @@ img {
 .bebe-2{background-image: url('../img/bebe-2.png');}
 .bebe-3{background-image: url('../img/bebe-3.png');}
 .bebe-4{background-image: url('../img/bebe-4.png');}
+
+@keyframes parallax {
+    from {
+        transform: translateZ(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateZ(100px);
+        opacity: 1;
+    }
+}
+
+.pi2{opacity: 0;}
+.pi1{opacity: 0;}
+.pi11{opacity: 0;}
+.pi6{opacity: 0;}
+.pi7{opacity: 0;}
+.pi9{opacity: 0;}
+.pi8{opacity: 0;}
+.pi10{opacity: 0;}
+
+.parallax{
+    animation: parallax 1s ease-in-out forwards;
+}
